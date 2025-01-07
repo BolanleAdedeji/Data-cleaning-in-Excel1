@@ -37,7 +37,14 @@ Step-by-step documentation of cleaning techniques, including:
 - Trim the name column to remove unnecessary spaces before, in between and after names
 - Edit the name to have proper casing, this ensures the data are uniform, reduces the chance of errors in analysis, enhances data matching, and improves searchability and readability of data.
 - Unknown was found in the age column, this was identified and replaced by the mean age which is 33, mean age was achieved by calculating the average, and was replaced using 'find and replace'.
-- On the gender column had both inconsistencies with how male and female were written, by using "find and replace", all male were replaced with "M" and all females were replaced with "F", there were also empty cells were identified
+- On the gender column had inconsistencies with how male and female were written, by using "find and replace", all male were replaced with "M" and all females were replaced with "F", empty cells were identified, some of the cells were replaced with either "F" Female where Mrs. was seen and "M" Male where Mr was seen, this was identified using the filter, the remaining empty cells were replaced with "Uknown" using IF(ISBLANK).
+- the city colum was edited to maintain consistency in the city name, using the filter, find, and repace.
+- on the Blood group column, empty cells were replaced with "Unavailable" using IF(ISBLANK).
+- Education Column was edited using If(ISBLANK) to replace all empty cells with "Unknown"
+- The salary column had anomalies which needed, a lot of cleaning, the "$" and "-" signs were removes using "find and replace", the "missing" cells were replaced with "0", using "IF", the colum was tested using =ISNUMBER to test if all are numerical, which returned a lot of cells as FALSE, then using "filter,find and replace" the non-numeric content were removed.
+- Blank cells in health condition column was replaced with "Unavailable". using "filter, find and replace".
+- Credit Score was cleaned using "filter, find and replace".
+-  
 
 Cleaned Data: The polished, ready-to-analyze dataset.
 Analysis Insights: Bonus visualizations and summaries created post-cleaning.
