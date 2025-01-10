@@ -44,31 +44,29 @@ Step-by-step documentation of cleaning techniques, including:
 - The salary column had anomalies which needed, a lot of cleaning, the "$" and "-" signs were removes using "find and replace", the "missing" cells were replaced with "0", using "IF", the colum was tested using =ISNUMBER to test if all are numerical, which returned a lot of cells as FALSE, then using "filter,find and replace" the non-numeric content were removed.
 - Blank cells in health condition column was replaced with "Unavailable". using "filter, find and replace".
 - Credit Score was cleaned using "filter, find and replace".
--  
+-  Date column was was cleaned by spliting the date into different column, day of the week, date, month and year, the date and month mixed together was cleaned using filter, and manually switched, then the columns were combined using =date funtion.
 
-Cleaned Data: The polished, ready-to-analyze dataset.
-Analysis Insights: Bonus visualizations and summaries created post-cleaning.
 
 ### Tools Used
 #### - Microsoft Excel:
 - Advanced functions,
-- conditional formatting, and
+- conditional formatting, Pivot table 
 - data validation.
-#### - Power Query: For efficient data transformation and automation.
-Pivot Tables & Charts: For quick summaries and insights.
 
 #### Why This Challenge Matters
 Cleaning data is the cornerstone of data analytics—it’s where messy data turns into gold! This challenge demonstrates my ability to:
 
-Identify and resolve data quality issues.
-Apply Excel’s full potential for data cleaning and transformation.
-Deliver clean, actionable datasets for decision-making.
+- Identify and resolve data quality issues.
+- Apply Excel’s full potential for data cleaning and transformation.
+- Deliver clean, actionable datasets for decision-making.
+- Use pivot table to summarize data
+- use excel for Dashboard
 
 Let’s dive into the art and science of data cleaning together!
 
 ### Exploratory Data Analysis
 
-- Identify cities or demographics with higher healthcare needs based on health conditions and admission dates.
+- Identify cities and  demographics with higher healthcare needs based on health conditions and admission dates.
 
 ### Result 
 
