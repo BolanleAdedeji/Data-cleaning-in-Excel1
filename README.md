@@ -45,6 +45,8 @@ Step-by-step documentation of cleaning techniques, including:
 - Blank cells in health condition column was replaced with "Unavailable". using "filter, find and replace".
 - Credit Score was cleaned using "filter, find and replace".
 -  Date column was was cleaned by spliting the date into different column, day of the week, date, month and year, the date and month mixed together was cleaned using filter, and manually switched, then the columns were combined using =date funtion.
+-  Data was imported into PowerBi to check error rate in power query.
+-  visualization was done using PowerBi
 
 
 ### Tools Used
@@ -52,6 +54,8 @@ Step-by-step documentation of cleaning techniques, including:
 - Advanced functions,
 - conditional formatting, Pivot table 
 - data validation.
+#### PowerBi
+- Visualization
 
 #### Why This Challenge Matters
 Cleaning data is the cornerstone of data analytics—it’s where messy data turns into gold! This challenge demonstrates my ability to:
