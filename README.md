@@ -45,8 +45,9 @@ Step-by-step documentation of cleaning techniques, including:
 - Blank cells in health condition column was replaced with "Unavailable". using "filter, find and replace".
 - Credit Score was cleaned using "filter, find and replace".
 -  Date column was was cleaned by spliting the date into different column, day of the week, date, month and year, the date and month mixed together was cleaned using filter, and manually switched, then the columns were combined using =date funtion.
--  Data was imported into PowerBi to check error rate in power query.
--  visualization was done using PowerBi
+-  Data was imported into Power Query to check to edit change, Add column from example, Split column into day, month and year and convert to date format.
+-  visualization was done using Excel Pivot table and Charts
+
 
 
 ### Tools Used
@@ -54,32 +55,43 @@ Step-by-step documentation of cleaning techniques, including:
 - Advanced functions,
 - conditional formatting, Pivot table 
 - data validation.
-#### PowerBi
-- Visualization
+
 
 #### Why This Challenge Matters
-Cleaning data is the cornerstone of data analytics—it’s where messy data turns into gold! This challenge demonstrates my ability to:
+Cleaning data is the cornerstone of data analytics—it’s where messy data turns into gold! 
+This challenge demonstrates my ability to: Clean different types of column with different dataset format in a scolumn especially date column, it stretches mean to learn and research different methods of cleaning data. At the end of the challenge I was able to showcase my ability to 
 
 - Identify and resolve data quality issues.
 - Apply Excel’s full potential for data cleaning and transformation.
 - Deliver clean, actionable datasets for decision-making.
 - Use pivot table to summarize data
-- use excel for Dashboard
+- Use Excel for Dashboard
 
 Let’s dive into the art and science of data cleaning together!
 
 ### Exploratory Data Analysis
 
 - Identify cities and  demographics with higher healthcare needs based on health conditions and admission dates.
+  
 
 ### Result 
+- I was able to identify that among 1656 patients admitted accross the cities , Atlanta city has 973 of them making the city highest with poor health condition.
+- Blood type B+ and O+ blood type are needed more.
+- A+,B+,O+ blood type is prevalent among the patients with poor health condition.
+- Other gender has the poorest health condition when compared with male and female.
+- Patients with Excellent health condition has high credit score.
+- Unemployed patients ranked high in poor health
 
 
 ### Recommendations
-
+_ Healthcare provision should be more in Atlanta city, becuase they have both poorest health condition and are employed with good credit score.
+- More health care services should be provided to the other gender to improve their health status.
+- A+,B+,O+ blood type should be sourced and supplied more to the blood bank accross the cities with Atlanta city getting more supply
+- Unemployment needs to be addressed to reduce the number of unemployed with poor health condition
 ### Limitations 
+- The data did not provide information on the type of health conditions treated to be able to profer specific solution to gender and employment statu.
+- Other gender need to be further breakdown to understand the gender type facing poor health condition
+- Unable to sort the gender of some of the patients that fall under others due to unavailable prefix.
 
-
-### References 
 
 
