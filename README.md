@@ -31,6 +31,7 @@ Raw Data: Real-world messy datasets filled with challenges like:
 
 - Erroneous data points
 
+![image alt](https://github.com/BolanleAdedeji/Data-cleaning-in-Excel1/blob/main/dirty%20health%20dataset.png?raw=true)
 ### Cleaning Steps 
 Step-by-step documentation of cleaning techniques, including:
 - Remove duplicate data to maintain a clear dataset, reduce the chances of inconsistency in analysis, remove the chances of having incorrect conclusions.
@@ -49,13 +50,14 @@ Step-by-step documentation of cleaning techniques, including:
 -  visualization was done using Excel Pivot table and Charts
 
 
-
 ### Tools Used
 #### - Microsoft Excel:
 - Advanced functions,
 - conditional formatting, Pivot table 
 - data validation.
 
+  
+![image alt](https://github.com/BolanleAdedeji/Data-cleaning-in-Excel1/blob/main/Cleaned%20Health%20dataset.png?raw=true)
 
 #### Why This Challenge Matters
 Cleaning data is the cornerstone of data analytics—it’s where messy data turns into gold! 
@@ -74,6 +76,8 @@ Let’s dive into the art and science of data cleaning together!
 - Identify cities and  demographics with higher healthcare needs based on health conditions and admission dates.
   
 
+![image alt](https://github.com/BolanleAdedeji/Data-cleaning-in-Excel1/blob/main/KPIs%20health%20Data.png?raw=true)
+
 ### Result 
 - I was able to identify that among 1656 patients admitted accross the cities , Atlanta city has 973 of them making the city highest with poor health condition.
 - Blood type B+ and O+ blood type are needed more.
@@ -83,6 +87,7 @@ Let’s dive into the art and science of data cleaning together!
 - Unemployed patients ranked high in poor health
 
 
+![image alt](https://github.com/BolanleAdedeji/Data-cleaning-in-Excel1/blob/main/Healt%20Data%20Dashboard.png?raw=true)
 ### Recommendations
 _ Healthcare provision should be more in Atlanta city, becuase they have both poorest health condition and are employed with good credit score.
 - More health care services should be provided to the other gender to improve their health status.
